@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script></head>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ 
+    <style>
+      
+      .logo , .w3-button {
+        background-color: rgb(110, 204, 241);
+        display: inline-block;
+        display: flex;
+      
+      
+      }
+      .w3-button{
+           align-items: center;
+           padding-left: 100px;
+      }
+       .fontf01{
+        position: absolute; 
+        color: aliceblue ;
+         padding-top: 400px;
+         padding-left: 100px;
+         font-size: medium;
+       }
+      .font1{
+        color: rgb(189, 224, 255);
+            position: absolute;
+            padding-left: 350px;
+          padding-top: 150px;
+          border-radius: 8px;
+          font-size: 50px;
+          letter-spacing: 1px;
+          font-weight: 600;
+      }
+       .font{
+          position: absolute;
+          padding-left: 200px;
+          padding-top: 100px;
+          color: rgb(0, 183, 255);
+          border-radius: 8px;
+          font-size: 50px;
+          letter-spacing: 1px;
+          font-weight: 600;
+            
+       }
+       
+       .mess{
+            
+             padding-left: 400px;
+             background-color: aliceblue;
+             border: 2px solid; 
+       }
+     .contest-01{
+      padding: 20px;
+      color: rgb(23, 130, 192);
+     }
+       .categories {
+
+        display: flex;
+        gap: 30px;
+        padding-bottom: 200px;
+        justify-content: space-around;
+       }
+         
+        
+      .last-cont{
+        background-image: url(./closed-bg.jpg);
+        display: flex;
+        gap: 30px;
+        justify-content: space-around;
+        
+      }
+      .Message{
+        background-image: url(./closed-bg.jpg);
+          color: rgb(26, 105, 105);
+        
+      } 
+      .lst{
+         border: 2px solid;
+         background-color: antiquewhite;
+      }
+       .cats1{
+         background-color: aliceblue;
+         border: 2px solid ;
+       padding-inline: 50px;
+        
+       }
+       .fontlast{
+         color: rgb(38, 1, 247);
+       }
+       .copy{
+         background-color: rgb(2, 121, 233);
+         
+       }
+       .carousel slide{
+        padding: 10px 30px;
+       }
+       .carousel-inner{
+                position: relative;
+                z-index: 1;
+                margin-top: -90px;
+                justify-content: center;
+                align-items: center;
+                align-content: center;
+                padding: 10px 120px;
+       }
+       .carousel-control-prev{
+        background-color: aqua;
+        width: 10%;
+        height: 20%;
+        border-radius: 50%;
+       }
+       .carousel-control-next{
+        background-color: aqua;
+        width: 10%;
+        height: 20%;
+        border-radius: 50%;
+       }
+         .container{
+              display: flex;
+              position: relative;
+               z-index: 1;
+               margin-top: -80px;
+               width: 80%;
+               gap: 30px;
+              border-radius: 10%;
+              justify-content: center;
+              justify-items: center;
+              justify-self: center;
+
+         }
+         .snapx{
+          position: absolute;
+          padding-left: 300px; 
+          padding-top: 450px;
+      border-radius: 8px;
+      font-size: 18px;
+      letter-spacing: 1px;
+      font-weight: 600;
+      color: rgb(140, 0, 255)
+         }
+         @media screen and (max-width:400px){
+         .container{display: block;}
+       .plans
+             {display: block;}
+  }
+  @media screen and (max-width:400px) {
+      .categories{display: block;}
+    
+  }
+   @media screen and (max-width:400px) {
+    .last-cont{display: block;}
+    
+   }
+     .plans{
+        gap: 10px;
+        justify-content: center;
+        justify-items: center;
+        
+     }
+    </style>
+   
+     <div class="logo"><img src="./logo.png" alt="logo">
+    <div class="mainplan" >
+       <a href="#main01" class="w3-button">Home</a>
+    </div>
+    <div>
+      <a href="#carts01" class="w3-button">Photos&videos</a></div>
+      <div>
+      <a href="#stcont" class="w3-button">Categories</a>
+    </div>
+   <div class="sign" >
+    <a style="padding-left: 400px; ;" href="#Contact" >Sign up & Contact</a></div>
+    </div>
+  </div>
+    <div>
+      
+   <h1 class="font" >Enter <span style="color: rgb(45, 116, 156);">a world </span> of Photos & Amazing</h1> 
+   <h1 class="font1">Awards</h1>
+   <p class="fontf01">Snapx Photography is a professional website with 5 different HTML pages for maximum customnination.it is free for commercial</p>
+  <p class="snapx" > <button>Explore Snapx Contest</button></p>
+  <div class="main" id="main01">
+       <img src="./banner-bg (1).jpg" width="100%">
+   
+    
+       <div class="container" >
+        <div style="padding-top: 71px; position:relative;">
+           <img src="./prev.png" alt="prev">
+        </div>
+        <div >
+           <img src="./featured-01.jpg" alt="01" >
+        </div>
+        <div>
+          <img src="./featured-02.jpg" alt="02" >
+        </div>
+        <div>
+           <img src="./featured-03.jpg" alt="03" >
+           
+        </div>
+        <div  style="padding-top: 71px; position:relative;">
+          <img src="./next.png" alt="prv">
+        </div>
+     </div>
+    
+      </div>
+  <div class="contest-01">
+    <h3>Our categories </h3>
+    <h2>Check out Popular Content categories</h2>
+  </div>
+   <div class="categories" id="carts01">
+      <div class="cats1">
+        <img src="./icon-01.png">
+        <p style="padding-left: 40px;"><b>Natural pic contest</b></p>
+        <img height="250vh" width="200vh" src="./featured-image-01.jpg" alt="01">
+        <button><b>BrowsePic Contest</b></button></div>
+      <div  class="cats1">
+        <img src="./icon-02.png">
+        <p style="padding-left: 30px"><b>Random pic Contest</b></p>
+        <img height="250vh" width="200vh" src="./featured-image-02.jpg" alt="02">
+        <button><b>BrowsePic Contest</b></button></div>
+      <div  class="cats1">
+        <img src="./icon-03.png">
+        <p style="padding-left: 30px"><b>Portrait Pic Contest</b></p>
+        <img height="250vh" width="200vh" src="./featured-image-03.jpg" alt="03">
+        <button><b>BrowsePic Contest</b></button></div>
+      <div  class="cats1">
+        <img src="./icon-04.png">
+        <p style="padding-left: 40px"><b>Space pic Contest</b></p>
+        <img height="250vh" width="200vh" src="featured-image-04.jpg" alt="04">
+        <button><b>BrowsePic Contest</b></button></div>
+      
+   </div>
+   
+   
+  
+  
+    <div class="Message">
+      <div class="w3-center" align="center">
+     <h3>closed Photography Contests</h3>
+     <h1>Previous Contests with Handipicked Winner</h1>
+  </div>
+</div>
+
+  <div class="last-cont" id="stcont">
+  <div class="lst">
+  <img src="./closed-01.jpg" alt="">
+  <pre><b>     96 participate     410 picture </b></p>
+</div>
+ <div class="lst">  <img src="closed-02.jpg" alt="">
+  <pre><b>     76 participate     210 picture </b></p></div>
+
+
+   <div class="lst"><img src="closed-03.jpg" alt="">
+    <pre><b>     88 participate     320 picture </b></p></div>
+</div> 
+     <div align="center" class="fontlast">
+        <pre><b> <h1>         Our Pricing
+              Photography Contest Plans And Price Awards 
+                  </h1> </b></pre>
+     </div>
+
+     <div class="w3-third w3-margin-bottom">
+      <img src="./pricing-01.jpg" alt="pri">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <a img src="./contest-04.jpg"></a>
+        <li class=" w3-xlarge w3-padding-32">Basic plan</li>
+        <li class="w3-padding-16"><b>10GB</b> shooting storage</li>
+        <li class="w3-padding-16"><b>photos and videos</b>Email</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 10</h2>
+          <span class="w3-opacity"> choose this plan </span>
+
+
+
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <img src="./pricing-02.jpg" alt="pri">
+       
+        <li class="w3-xlarge w3-padding-32">Standard Plan</li>
+        <li class="w3-padding-16"><b>25GB</b> Storage</li>
+        <li class="w3-padding-16"><b>photos and videos</b> Email</li>
+        
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 25</h2>
+          <span class="w3-opacity"> choose this plan </span>
+
+          
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <img src="./pricing-03.jpg" alt="pri">
+        <li class="w3-padding-32">Advanced Plan</li>
+        <li class="w3-padding-16"><b>50GB</b> Storage</li>
+        <li class="w3-padding-16"><b>Photos and videos</b> Emails</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide">$ 50</h2>
+          <span class="w3-opacity"> choose this plan </span>
+        </li>
+        <li class="w3-light-grey w3-padding-24">
+          <button class="w3-button w3-green w3-padding-large">Sign Up</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+     
+
+  <div id="Contact">
+    <h1>Contact</h1>
+    <form class="w3-container" target="_blank" id="Contact">
+      <div class="w3-section">
+        <label>Name</label>
+        <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
+      </div>
+      <div class="w3-section">
+        <label>Email</label>
+        <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
+      </div>
+      <div class="w3-section">
+        <label>Subject</label>
+        <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Subject" required>
+      </div>
+      <div class="w3-section">
+        <label>Message</label>
+        <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="Message" required>
+      </div>
+      <button type="submit" class="w3-button w3-block w3-black">Send</button>
+    </form>
+  </div>
+
+
+    <div class="copy">
+      <p align="center">copyright@2000 PhotoContest Co, Ltd.All right reserved Design Templete</p>
+    </div>
+</body>
+</html>
